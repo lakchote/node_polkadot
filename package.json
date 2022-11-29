@@ -1,0 +1,24 @@
+{
+  "name": "node_polkadot",
+  "version": "1.0.0",
+  "description": "Backend for Polkadot access with RN/Expo",
+  "main": "index.js",
+  "author": "Lucien Akchoté",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "watch": "yarn run nodemon app.js",
+    "launch": "yarn node app.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^9.9.4",
+    "@polkadot/keyring": "^10.1.14",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
